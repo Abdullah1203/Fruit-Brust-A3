@@ -75,14 +75,14 @@
               <div class="dropdown-end">
                 <ul
                   tabindex="0"
-                  class="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow md:bg-button_color rounded-box w-52 text-para_color md:text-white"
+                  class="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow bg-slate-50 md:bg-button_color rounded-box w-52 text-para_color md:text-white"
                 >
                   <li><a>Home</a></li>
                   <li><a>About Us</a></li>
                   <li><a>Shop</a></li>
                   <li><a>All Fruit</a></li>
                   <li>
-                    <div class="join gap-0">
+                    <div class="join gap-0 md:text-para_color">
                       <input
                         class="input input-bordered join-item rounded-l-full border-0 w-[100%]"
                         placeholder="Search here"
@@ -105,7 +105,6 @@
                 <li><a>All Fruit</a></li>
               </ul>
             </div>
-            <!-- <a class="btn btn-ghost normal-case text-xl"></a> -->
           </div>
           <div class="">
             <div class="flex justify-center items-center text-center">
@@ -130,7 +129,71 @@
       <!-- NAVBAR ENDS -->
 
       <!-- BANNER SECTION STARTS -->
-      <section class="my-12 lg:my-20 text-center space-y-10"></section>
+      <section class="my-12 lg:my-20 text-center space-y-10">
+        <div class="carousel w-full bg-no-repeat bg-center mx-auto">
+          <div
+            id="slide1"
+            class="carousel-item relative w-full"
+            style="
+              background-image: url(images/banner4.png),
+                linear-gradient(30deg, #11111100, #111111);
+              background-blend-mode: overlay;
+              background-size: cover;
+            "
+          >
+            <div
+              class="flex justify-center items-center flex-col w-full text-white gap-4 lg:justify-normal lg:pt-14"
+            >
+              <h1
+                class="text-2xl md:text-4xl lg:text-5xl xl:text-7xl text-white font-extrabold"
+              >
+                Exotic tastes at your
+                <br />
+                doorstep
+              </h1>
+              <p class="px-20">We supply highly quality organic product</p>
+              <button
+                class="btn text-white capitalize bg-button_color hover:bg-red-600 border-0"
+              >
+                Shop Now
+              </button>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-sm btn-circle btn-outline">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="images/banner3.png" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="images/banner4.png" class="w-full" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- BANNER SECTION ENDS -->
     </header>
     <!-- MAIN SECTION -->
