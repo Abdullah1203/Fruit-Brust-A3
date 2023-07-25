@@ -50,11 +50,11 @@
     <!-- HEADER SECTION -->
     <header class="mx-6 md:mx-[10%]">
       <!-- NAVBAR STARTS -->
-      <nav>
+      <nav class="md:my-4">
         <div
-          class="navbar md:bg-button_color md:text-white rounded-full p-6 flex-row-reverse lg:flex-row justify-between"
+          class="navbar md:bg-button_color md:text-white rounded-full sm:px-6 py-4 flex-row-reverse lg:flex-row justify-between items-center mx-auto"
         >
-          <div class="navbar-start w-auto">
+          <div class="w-auto">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
                 <svg
@@ -75,12 +75,25 @@
               <div class="dropdown-end">
                 <ul
                   tabindex="0"
-                  class="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow md:bg-button_color rounded-box w-52 text-prara_colo md:text-white"
+                  class="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow md:bg-button_color rounded-box w-52 text-para_color md:text-white"
                 >
                   <li><a>Home</a></li>
                   <li><a>About Us</a></li>
                   <li><a>Shop</a></li>
                   <li><a>All Fruit</a></li>
+                  <li>
+                    <div class="join gap-0">
+                      <input
+                        class="input input-bordered join-item rounded-l-full border-0 w-[100%]"
+                        placeholder="Search here"
+                      />
+                      <button
+                        class="btn join-item rounded-r-full bg-white border-0 w-[100%]"
+                      >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -94,17 +107,17 @@
             </div>
             <!-- <a class="btn btn-ghost normal-case text-xl"></a> -->
           </div>
-          <div class="navbar-center mx-auto">
+          <div class="">
             <div class="flex justify-center items-center text-center">
               <img class="w-10" src="images/logo.png" alt="logo" />
               <h2 class="text-xl font-bold pl-2">Fruit Burst</h2>
             </div>
           </div>
 
-          <div class="navbar-end hidden lg:flex">
+          <div class="hidden lg:flex text-para_color">
             <div class="join">
               <input
-                class="input input-bordered join-item rounded-l-full border-0"
+                class="input join-item rounded-l-full border-0 w-[270px]"
                 placeholder="Search here"
               />
               <button class="btn join-item rounded-r-full bg-white border-0">
