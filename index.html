@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fruit Brust</title>
+    <title>Fruit Burst</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
     <!-- GOOGLE FONT CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,8 +48,72 @@
   </head>
   <body>
     <!-- HEADER SECTION -->
-    <header class="mx-6 md:mx-[10%] xl:mx-[20%]">
+    <header class="mx-6 md:mx-[10%]">
       <!-- NAVBAR STARTS -->
+      <nav>
+        <div
+          class="navbar md:bg-button_color md:text-white rounded-full p-6 flex-row-reverse lg:flex-row justify-between"
+        >
+          <div class="navbar-start w-auto">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="3"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <div class="dropdown-end">
+                <ul
+                  tabindex="0"
+                  class="menu menu-md dropdown-content mt-3 z-[1] p-2 shadow md:bg-button_color rounded-box w-52 text-prara_colo md:text-white"
+                >
+                  <li><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruit</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruit</a></li>
+              </ul>
+            </div>
+            <!-- <a class="btn btn-ghost normal-case text-xl"></a> -->
+          </div>
+          <div class="navbar-center mx-auto">
+            <div class="flex justify-center items-center text-center">
+              <img class="w-10" src="images/logo.png" alt="logo" />
+              <h2 class="text-xl font-bold pl-2">Fruit Burst</h2>
+            </div>
+          </div>
+
+          <div class="navbar-end hidden lg:flex">
+            <div class="join">
+              <input
+                class="input input-bordered join-item rounded-l-full border-0"
+                placeholder="Search here"
+              />
+              <button class="btn join-item rounded-r-full bg-white border-0">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
       <!-- NAVBAR ENDS -->
 
       <!-- BANNER SECTION STARTS -->
