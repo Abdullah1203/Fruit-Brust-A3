@@ -98,7 +98,7 @@
               </div>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
+              <ul class="menu menu-horizontal px-1 lg:">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
@@ -107,7 +107,9 @@
             </div>
           </div>
           <div class="">
-            <div class="flex justify-center items-center text-center">
+            <div
+              class="flex justify-center items-center text-center hover:cursor-pointer"
+            >
               <img class="w-10" src="images/logo.png" alt="logo" />
               <h2 class="text-xl xl:text-2xl font-bold pl-2">Fruit Burst</h2>
             </div>
@@ -116,10 +118,12 @@
           <div class="hidden lg:flex text-para_color">
             <div class="join">
               <input
-                class="input join-item rounded-l-full border-0 w-[270px]"
+                class="input join-item rounded-l-full border-0 lg:w-[240px] xl:w-[270px] focus:outline-none"
                 placeholder="Search here"
               />
-              <button class="btn join-item rounded-r-full bg-white border-0">
+              <button
+                class="btn join-item rounded-r-full bg-white border-0 hover:bg-red-300"
+              >
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
             </div>
@@ -304,7 +308,9 @@
           <div
             class="absolute -bottom-24 w-full mx-auto hidden lg:flex justify-center space-x-14"
           >
-            <div class="flex bg-white mx-20 drop-shadow-md rounded-lg px-8">
+            <div
+              class="flex bg-white mx-20 drop-shadow-md rounded-lg px-8 md:text-xs xl:text-base"
+            >
               <div class="rounded-lg bg-white p-8 space-y-3">
                 <img
                   class="w-full mx-auto"
@@ -335,7 +341,7 @@
                   src="images/fruit4.png"
                   alt="single-fruit"
                 />
-                <p>Sberry</p>
+                <p>Strawberry</p>
               </div>
               <div class="rounded-lg bg-white p-8 space-y-3">
                 <img
@@ -343,7 +349,7 @@
                   src="images/fruit5.png"
                   alt="single-fruit"
                 />
-                <p>Pomegr</p>
+                <p>Pomegranate</p>
               </div>
             </div>
           </div>
@@ -1064,6 +1070,13 @@
             </div>
           </div>
         </div>
+        <div class="flex justify-center">
+          <button
+            class="btn text-white capitalize bg-button_color hover:bg-red-600 border-0 w-28 w-28"
+          >
+            Shop All
+          </button>
+        </div>
       </section>
       <!-- DEAL SECTION ENDS -->
 
@@ -1244,7 +1257,166 @@
       <!-- TEAM SECTION ENDS -->
 
       <!-- CHOOSE US SECTION STARTS -->
-      <section class="my-12 lg:my-20 text-center space-y-10"></section>
+      <section class="my-12 lg:my-28 text-center space-y-10">
+        <div class="text-center space-y-8 mb-10">
+          <h2 class="text-3xl lg:text-5xl font-extrabold">Why Choose Us</h2>
+          <p class="">
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical
+            <br />
+            Latin literature from 45 BC, making it over 2000 years old
+          </p>
+        </div>
+        <!-- MIDDLE XL-->
+        <div class="xl:relative xl:h-[500px]">
+          <div class="xl:absolute xl:left-[33%] xl:right-[33%]">
+            <img class="mx-auto" src="images/whychoose1.png" alt="why choose" />
+          </div>
+
+          <!-- ONE XL -->
+          <div class="xl:absolute xl:left-0 xl:w-[33%] mx-0">
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:text-left gap-10 py-10 bg-yellow-500 my-6 xl:py-0 xl:my-0 xl:gap-4 xl:justify-start xl:mb-4"
+            >
+              <div>
+                <a class="rounded-full p-4 bg-slate-100" href=""
+                  ><i class="fa-solid fa-people-group"></i
+                ></a>
+              </div>
+              <div class="">
+                <h2 class="font-extrabold text-2xl text-header_color">
+                  Dedicated Team
+                </h2>
+                <hr
+                  class="border-1 border-header_color w-20 my-4 mx-auto lg:mx-0"
+                />
+                <p class="">
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:text-left gap-10 py-10 bg-yellow-500 my-6 xl:py-0 xl:my-0 xl:gap-4 xl:justify-start xl:mb-4"
+            >
+              <div>
+                <a class="rounded-full p-4 bg-slate-100" href=""
+                  ><i class="fa-solid fa-people-group"></i
+                ></a>
+              </div>
+              <div class="">
+                <h2 class="font-extrabold text-2xl text-header_color">
+                  Dedicated Team
+                </h2>
+                <hr
+                  class="border-1 border-header_color w-20 my-4 mx-auto lg:mx-0"
+                />
+                <p class="">
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:text-left gap-10 py-10 bg-yellow-500 my-6 xl:py-0 xl:my-0 xl:gap-4 xl:justify-start xl:mb-4"
+            >
+              <div>
+                <a class="rounded-full p-4 bg-slate-100" href=""
+                  ><i class="fa-solid fa-people-group"></i
+                ></a>
+              </div>
+              <div class="">
+                <h2 class="font-extrabold text-2xl text-header_color">
+                  Dedicated Team
+                </h2>
+                <hr
+                  class="border-1 border-header_color w-20 my-4 mx-auto lg:mx-0"
+                />
+                <p class="">
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- THREE XL -->
+          <div class="xl:absolute xl:right-0 xl:w-[33%]">
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:text-left xl:flex-row-reverse xl:text-right gap-10 py-10 bg-yellow-500 my-6 xl:py-0 xl:my-0 xl:gap-4 xl:justify-start xl:mb-4"
+            >
+              <div>
+                <a class="rounded-full p-4 bg-slate-100" href=""
+                  ><i class="fa-solid fa-truck-fast"></i
+                ></a>
+              </div>
+              <div class="flex flex-col">
+                <h2 class="font-extrabold text-2xl text-header_color">
+                  Integrated Supplier
+                </h2>
+                <div class="">
+                  <hr
+                    class="border-1 border-header_color w-20 my-4 mx-auto lg:mx-0 xl:float-right"
+                  />
+                </div>
+
+                <p class="">
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:text-left xl:flex-row-reverse xl:text-right gap-10 py-10 bg-yellow-500 my-6 xl:py-0 xl:my-0 xl:gap-4 xl:justify-start xl:mb-4"
+            >
+              <div>
+                <a class="rounded-full p-4 bg-slate-100" href=""
+                  ><i class="fa-solid fa-ice-cream"></i
+                ></a>
+              </div>
+              <div class="flex flex-col">
+                <h2 class="font-extrabold text-2xl text-header_color">
+                  Sustainable Practice
+                </h2>
+                <div class="">
+                  <hr
+                    class="border-1 border-header_color w-20 my-4 mx-auto lg:mx-0 xl:float-right"
+                  />
+                </div>
+
+                <p class="">
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col lg:flex-row lg:items-center lg:justify-center lg:text-left xl:flex-row-reverse xl:text-right gap-10 py-10 bg-yellow-500 my-6 xl:py-0 xl:my-0 xl:gap-4 xl:justify-start xl:mb-4"
+            >
+              <div>
+                <a class="rounded-full p-4 bg-slate-100" href=""
+                  ><i class="fa-solid fa-thumbs-up"></i
+                ></a>
+              </div>
+              <div class="flex flex-col">
+                <h2 class="font-extrabold text-2xl text-header_color">
+                  The Benefits Only
+                </h2>
+                <div class="">
+                  <hr
+                    class="border-1 border-header_color w-20 my-4 mx-auto lg:mx-0 xl:float-right"
+                  />
+                </div>
+
+                <p class="">
+                  Professional employees are there for you to pick <br />
+                  the most amazing and fresh fruits
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- CHOOSE US SECTION ENDS -->
     </main>
     <!-- FOOTER SECTION -->
@@ -1253,17 +1425,17 @@
     <footer
       class="footer footer-center px-10 py-20 bg-slate-900 text-base-content rounded text-white"
     >
-      <div class="grid grid-flow-col gap-4">
+      <div class="grid grid-flow-col gap-4 hover:cursor-pointer">
         <img class="w-10" src="images/logo.png" alt="logo" />
         <h2 class="text-xl xl:text-2xl font-bold pl-2">Fruit Burst</h2>
       </div>
       <div class="grid grid-cols-4 md:grid-cols-6 gap-6">
-        <a class="link link-hover">Home</a>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Shop</a>
-        <a class="link link-hover">All Fruits</a>
-        <a class="link link-hover col-span-2 md:col-span-1">Support</a>
-        <a class="link link-hover col-span-2 md:col-span-1">My Account</a>
+        <a class="cursor-pointer">Home</a>
+        <a class="cursor-pointer">About us</a>
+        <a class="cursor-pointer">Shop</a>
+        <a class="cursor-pointer">All Fruits</a>
+        <a class="cursor-pointer col-span-2 md:col-span-1">Support</a>
+        <a class="cursor-pointer col-span-2 md:col-span-1">My Account</a>
       </div>
       <div>
         <div class="grid grid-flow-col gap-7 text-2xl md:text-3xl">
