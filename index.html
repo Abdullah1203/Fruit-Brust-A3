@@ -293,8 +293,32 @@
             </div>
 
             <!-- dummy ghost slide -->
-            <div id="slide5" class="carousel-item relative w-full">
-              <img src="images/banner4.png" class="w-full opacity-0" />
+            <div
+              id="slide5"
+              class="hidden sm:inline-flex carousel-item relative w-full"
+            >
+              <div
+                class="hero bg-gradient-to-b from-[#121212E6] to-[#12121200] bg-opacity-60 w-full"
+              >
+                <img src="images/banner4.png" class="w-full -z-10 relative" />
+              </div>
+              <div
+                class="absolute flex justify-center items-center flex-col w-full text-white gap-4 py-6 lg:justify-normal lg:pt-14 2xl:pt-[10%]"
+              >
+                <h2
+                  class="text-2xl md:text-4xl lg:text-5xl xl:text-7xl text-white font-extrabold"
+                >
+                  I am dummy slide
+                  <br />
+                  i exist
+                </h2>
+                <p class="px-24">We supply highly quality organic product</p>
+                <button
+                  class="btn text-white capitalize bg-button_color hover:bg-red-600 border-0 w-28"
+                >
+                  Shop Now
+                </button>
+              </div>
               <div
                 class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
               >
@@ -1429,21 +1453,51 @@
         <h2 class="text-xl xl:text-2xl font-bold pl-2">Fruit Burst</h2>
       </div>
       <div class="grid grid-cols-4 md:grid-cols-6 gap-6">
-        <a class="cursor-pointer">Home</a>
-        <a class="cursor-pointer">About us</a>
-        <a class="cursor-pointer">Shop</a>
-        <a class="cursor-pointer">All Fruits</a>
-        <a class="cursor-pointer col-span-2 md:col-span-1">Support</a>
-        <a class="cursor-pointer col-span-2 md:col-span-1">My Account</a>
+        <a class="cursor-pointer hover:text-button_color">Home</a>
+        <a class="cursor-pointer hover:text-button_color">About us</a>
+        <a class="cursor-pointer hover:text-button_color">Shop</a>
+        <a class="cursor-pointer hover:text-button_color">All Fruits</a>
+        <a
+          class="cursor-pointer hover:text-button_color col-span-2 md:col-span-1"
+          >Support</a
+        >
+        <a
+          class="cursor-pointer hover:text-button_color col-span-2 md:col-span-1"
+          >My Account</a
+        >
       </div>
       <div>
         <div class="grid grid-flow-col gap-7 text-2xl md:text-3xl">
-          <a><i class="fa-brands fa-twitter" style="color: #ffffff"></i></a>
-          <a><i class="fa-brands fa-facebook" style="color: #ffffff"></i></a>
-          <a><i class="fa-brands fa-youtube" style="color: #ffffff"></i></a>
-          <a><i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i></a>
-          <a><i class="fa-brands fa-instagram" style="color: #ffffff"></i></a>
-          <a><i class="fa-brands fa-apple" style="color: #ffffff"></i></a>
+          <a class="cursor-pointer"
+            ><i
+              class="fa-brands fa-twitter text-white hover:text-button_color"
+            ></i
+          ></a>
+          <a class="cursor-pointer"
+            ><i
+              class="fa-brands fa-facebook text-white hover:text-button_color"
+            ></i
+          ></a>
+          <a class="cursor-pointer"
+            ><i
+              class="fa-brands fa-youtube text-white hover:text-button_color"
+            ></i
+          ></a>
+          <a class="cursor-pointer"
+            ><i
+              class="fa-brands fa-linkedin-in text-white hover:text-button_color"
+            ></i
+          ></a>
+          <a class="cursor-pointer"
+            ><i
+              class="fa-brands fa-instagram text-white hover:text-button_color"
+            ></i
+          ></a>
+          <a class="cursor-pointer"
+            ><i
+              class="fa-brands fa-apple text-white hover:text-button_color"
+            ></i
+          ></a>
         </div>
       </div>
     </footer>
